@@ -27,8 +27,7 @@ spec:
         volumeMounts:
               - name: podinfo
                 mountPath: /tmp
- 
-       volumes:
+      volumes:
           - name: podinfo
             downwardAPI:
               items:
