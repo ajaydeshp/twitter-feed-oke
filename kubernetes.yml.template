@@ -27,7 +27,7 @@ spec:
         volumeMounts:
               - name: podinfo
                 mountPath: /tmp
-                readonly: false
+ 
        volumes:
           - name: podinfo
             downwardAPI:
